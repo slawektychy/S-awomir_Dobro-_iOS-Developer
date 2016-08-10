@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers_self-hosted_service", "Customer_self-hosted_service\Customers_self-hosted_service.csproj", "{CDEE2025-5288-4D89-A0A4-D7C5311271AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customers_WinForm_UI", "Customers_WinForm_UI\Customers_WinForm_UI.csproj", "{01F80126-40E9-4C06-9F94-4164B4108252}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDEE2025-5288-4D89-A0A4-D7C5311271AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEE2025-5288-4D89-A0A4-D7C5311271AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEE2025-5288-4D89-A0A4-D7C5311271AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEE2025-5288-4D89-A0A4-D7C5311271AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01F80126-40E9-4C06-9F94-4164B4108252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01F80126-40E9-4C06-9F94-4164B4108252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01F80126-40E9-4C06-9F94-4164B4108252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01F80126-40E9-4C06-9F94-4164B4108252}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

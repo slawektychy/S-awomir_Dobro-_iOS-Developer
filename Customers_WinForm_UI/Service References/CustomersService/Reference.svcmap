@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6fe15552-b513-4bf9-81ce-b95c372236e4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/customers" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="customers.disco" MetadataType="Disco" ID="e4d015fd-ee96-4829-bc0b-f7e56e7d9894" SourceId="1" SourceUrl="http://localhost:8080/customers?disco" />
+    <MetadataFile FileName="customers.xsd" MetadataType="Schema" ID="94eac8ea-e728-4653-8efc-1c5d5913cd4b" SourceId="1" SourceUrl="http://localhost:8080/customers?xsd=xsd0" />
+    <MetadataFile FileName="customers1.xsd" MetadataType="Schema" ID="52508858-a4e0-4197-b3db-58386f502e8d" SourceId="1" SourceUrl="http://localhost:8080/customers?xsd=xsd2" />
+    <MetadataFile FileName="CustomersService.wsdl" MetadataType="Wsdl" ID="3f0a18a5-8e18-41f5-86af-5aa0a26740d8" SourceId="1" SourceUrl="http://localhost:8080/customers?wsdl" />
+    <MetadataFile FileName="customers2.xsd" MetadataType="Schema" ID="5574fb50-7371-42a9-9e34-8d373a5230df" SourceId="1" SourceUrl="http://localhost:8080/customers?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
