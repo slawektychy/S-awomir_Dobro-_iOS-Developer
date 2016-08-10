@@ -9,7 +9,7 @@ using System.Windows.Forms;
 namespace Customers_WinForm_UI
 {
     /// <summary>
-    /// Main program class (test)
+    /// Main program class
     /// </summary>
     static class Program
     {
