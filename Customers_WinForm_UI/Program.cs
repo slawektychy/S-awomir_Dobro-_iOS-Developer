@@ -22,6 +22,7 @@ namespace Customers_WinForm_UI
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new fmCustomers());
+
         }
     }
 }
